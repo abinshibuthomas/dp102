@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#555"
+    tools:context="com.example.my_app.unavailable">
+    <TextView
+        android:id="@+id/tav"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Unavailable"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="103dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="76dp"/>
+    <Button
+        android:id="@+id/detailid"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:text="borrow from users"
+        android:layout_marginTop="128dp"
+        android:layout_below="@+id/tav"
+        android:layout_alignParentStart="true"/>
+    <Button
+        android:id="@+id/detailsid"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:text="check online "
+        android:layout_marginStart="25dp"
+        android:layout_alignTop="@+id/detailid"
+        android:layout_toEndOf="@+id/detailid"/>
+
+</RelativeLayout>

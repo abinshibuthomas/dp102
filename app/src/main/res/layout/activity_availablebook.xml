@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#555"
+    tools:context="com.example.my_app.availablebook">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/l1"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/tav">
+
+        <Button
+            android:id="@+id/detailsid"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="lawyer-client connecting"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/ebookid"
+            android:text="create legal agreement"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/l2"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/l1">
+        <Button
+            android:layout_width="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/reviewid"
+            android:text="legal information "
+            android:layout_height="50dp"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/authorid"
+            android:text="by the people"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/l2"
+        android:id="@+id/linearLayout">
+        <Button
+            android:layout_width="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/audioid"
+            android:text="study materials"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
